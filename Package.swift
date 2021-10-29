@@ -11,9 +11,12 @@
 
 import PackageDescription
 
-print("Using DAMod Debug version, if you need release version use https://github.com/acoustic-analytics/DigitalAnalytics-SP")
+print("Using DAMod debug version, if you need release version use https://github.com/acoustic-analytics/DigitalAnalytics-SP")
 let package = Package(
     name: "DAMod",
+    platforms: [
+        .iOS(.v12)
+    ],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
@@ -34,7 +37,7 @@ let package = Package(
             checksum: "b7e78ec3fa75aae54e6e448447e93092ebd76e8c350d005b80456405cac2c3e7"),
         .binaryTarget(
             name: "EOCore",
-            url: "https://github.com/acoustic-analytics/EOCore/releases/download/2.3.71/EOCore_XCFramework_Debug.zip",
-            checksum: "ba20164e78ddb23d7f44ff56ada0657abd9209b37e2541b2a3549a565b48aebf"),
+            url: "https://github.com/acoustic-analytics/EOCore/releases/download/2.3.72/EOCore_XCFramework_Debug.zip",
+            checksum: "bb9ee2d29c67823f2706ba7a6a1937b42a469e970d71b585b39af30b3085cc9b"),
     ]
 )
