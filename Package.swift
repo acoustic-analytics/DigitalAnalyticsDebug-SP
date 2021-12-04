@@ -1,3 +1,4 @@
+
 // swift-tools-version:5.3
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 //
@@ -37,7 +38,7 @@ let package = Package(
             checksum: "b7e78ec3fa75aae54e6e448447e93092ebd76e8c350d005b80456405cac2c3e7"),
         .binaryTarget(
             name: "EOCore",
-            url: "https://github.com/acoustic-analytics/EOCore/releases/download/2.3.72/EOCore_XCFramework_Debug.zip",
-            checksum: "bb9ee2d29c67823f2706ba7a6a1937b42a469e970d71b585b39af30b3085cc9b"),
+            url: "https://github.com/acoustic-analytics/EOCore/releases/download/2.3.80/EOCore_XCFramework_Debug.zip",
+            checksum: "c1f6a60d668d6626cf995fbf18facb6090473f10c882b620c55249593af3e958"),
     ]
 )
