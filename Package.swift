@@ -34,8 +34,8 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
             name: "DAMod",
-            url: "https://github.com/acoustic-analytics/DigitalAnalytics/releases/download/1.1.58/DAMod_XCFramework_Debug.zip",
-            checksum: "0ae7d6e6deb665feb55c62dd0ec62746e92d38a87d9efd9892877185f5713ce8"),
+            url: "https://github.com/acoustic-analytics/DigitalAnalytics/releases/download/1.1.60/DAMod_XCFramework_Debug.zip",
+            checksum: "c0084016707fc6648033b1a04326d7ed2b13c82f928376e86a12273f2169570d"),
         .binaryTarget(
             name: "EOCore",
             url: "https://github.com/acoustic-analytics/EOCore/releases/download/2.3.189/EOCore_XCFramework_Debug.zip",
