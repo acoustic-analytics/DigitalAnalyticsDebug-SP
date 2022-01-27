@@ -38,7 +38,7 @@ let package = Package(
             checksum: "c0084016707fc6648033b1a04326d7ed2b13c82f928376e86a12273f2169570d"),
         .binaryTarget(
             name: "EOCore",
-            url: "https://github.com/acoustic-analytics/EOCore/releases/download/2.3.193/EOCore_XCFramework_Debug.zip",
-            checksum: "a000571f91571fca921693084e822d00f6fa38ab972d588aebe9852fe288e61a"),
+            url: "https://github.com/acoustic-analytics/EOCore/releases/download/2.3.194/EOCore_XCFramework_Debug.zip",
+            checksum: "9c0e710490c3cbca392718d4eb3956305854bfd83975ff02b8a0ec6324a53610"),
     ]
 )
