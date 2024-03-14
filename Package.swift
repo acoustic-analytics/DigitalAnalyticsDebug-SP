@@ -12,7 +12,7 @@
 
 import PackageDescription
 
-print("Using DAMod debug version, if you need release version use https://github.com/acoustic-analytics/DigitalAnalytics-SP")
+print("Using DAMod debug version, if you need release version use https://github.com/go-acoustic/DigitalAnalytics-SP")
 let package = Package(
     name: "DAMod",
     platforms: [
@@ -34,11 +34,11 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
             name: "DAMod",
-            url: "https://github.com/acoustic-analytics/DigitalAnalytics/releases/download/1.1.106/DAMod_XCFramework_Debug.zip",
-            checksum: "2e29f49084a65439da4601e12d2904441022f47447c815ea9d2df3400e171ea8"),
+            url: "https://github.com/go-acoustic/DigitalAnalytics/releases/download/1.1.107/DAMod_XCFramework_Debug.zip",
+            checksum: "2f19b38306d9e639fe088627d995b691ae96aebef99e5c63ffe71ce3f9b51a0a"),
         .binaryTarget(
             name: "EOCore",
-            url: "https://github.com/acoustic-analytics/EOCore/releases/download/2.3.269/EOCore_XCFramework_Debug.zip",
+            url: "https://github.com/go-acoustic/EOCore/releases/download/2.3.269/EOCore_XCFramework_Debug.zip",
             checksum: "759a90149204575ee63cc8c809082867bb1c334375f5039ebf8b900a5c81e3fb"),
     ]
 )
